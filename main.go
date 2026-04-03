@@ -40,7 +40,7 @@ func main() {
 		fmt.Println("lang: EXPIRED ❌")
 	}
 	if val, ok := c.Get("name"); ok {
-		fmt.Println("name:", val, "✅ still alive")
+		fmt.Println("name:", val, "still alive")
 	}
 
 	// Delete test
